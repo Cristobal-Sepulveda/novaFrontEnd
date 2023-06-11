@@ -1,0 +1,252 @@
+
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    background-color: #F5F5F5;
+    width: 1210px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.datePicker {
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.textDatePicker {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.classDatePicker {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: #eed9d9;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.tabla {
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid #3C3C3C;
+    border-radius: 15px;
+    background: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0.1rem;
+    position: absolute;
+    left: 19.5rem;
+    top: 7.3rem; 
+    overflow-y: scroll;
+}
+
+.text1 {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 4.8rem;
+    margin-right: 17rem;
+}
+
+.text2 {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: -2.5rem;
+    margin-left: 39rem;
+}
+
+.tabla2 {
+    width: 33.5rem;
+    height: 30rem;
+    border: 1px solid #3C3C3C;
+    border-radius: 15px;
+    background: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 1rem;
+    position: absolute;
+    left: 39.8rem;
+    top: 7.3rem; 
+}
+
+.selected {
+    border-color: #000000;
+    border-style: double;
+    cursor: pointer !important;
+}
+
+.notSelected {
+    cursor: pointer !important;
+}
+
+.boton {
+    position: absolute;
+    top: 38rem;
+    left: 20rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #5E5F5F;
+    width: 100px;
+    height: 32px;
+}
+
+.boton:hover
+{
+    color: #5E5F5F;
+    background-color: #FFFFFF;
+    border: 1px solid #5E5F5F;
+}
+
+@media screen and (min-width: 1800px) {
+    .container {
+        width: 1590px;
+        height: 860px;
+    }
+
+    .text {
+        left: 15%;
+        top: 3%;
+    }
+
+    .logo {
+        margin-left: 105rem;
+    }
+
+    .textDatePicker {
+        font-size: 18px;
+    }
+
+    .tabla {
+        left: 24rem;
+        top: 9rem; 
+        height: 40rem;
+        width: 30rem;
+    }
+
+    .tabla2 {
+        left: 55rem;
+        top: 9rem;
+        height: 40rem;
+        width: 40rem;
+    }
+
+    .text1 {
+        margin-top: 6.5rem;
+        margin-right: 21rem;
+    }
+
+    .text2 {
+        margin-top: -2.5rem;
+        margin-left: 54rem;
+    }
+
+    .boton {
+        top: 50rem;
+        left: 24rem;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 618px;
+        top: 52px;
+        left: 16rem;
+    }
+
+    .textDatePicker {
+        font-size: 15px;
+    }
+
+    .tabla {
+        left: 19.5rem;
+        top: 6.8rem; 
+        font-size: 14px;
+        width: 17.5rem;
+        height: 27rem;
+    }
+
+    .tabla2 {
+        left: 37.5rem;
+        top: 7rem; 
+        width: 24rem;
+        height: 27rem;
+    }
+
+    .text1 {
+        margin-top: 4.5rem;
+        margin-right: 9rem;
+        font-size: 15px;
+    }
+
+    .text2 {
+        margin-top: -2.5rem;
+        margin-left: 35rem;
+        font-size: 15px;
+    }
+
+    .boton {
+        top: 35rem;
+        left: 19.8rem;
+        width: 90px;
+        height: 28px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

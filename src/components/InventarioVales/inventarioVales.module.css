@@ -1,0 +1,98 @@
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.excel{
+    position: absolute;
+    left: 83%;
+    top: 2%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3C3C3C !important;
+    font-family: "Roboto";
+    font-weight: 800;
+    background-color: transparent;
+    width: 164px;
+    height: 37px;
+}
+
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    width: 1200px;
+    height: 660px;
+    background: #F5F5F5;
+    overflow: hidden;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    padding: 5rem 2.5rem 0 2.5rem;
+}
+
+.tableContainer {
+    position: absolute;
+    top: 3.5rem;
+    left: 2.5rem;
+    border-radius: 30px;
+    background: #FFFFFF;
+    width: 16rem;
+    height: 16.8rem;
+    font-size: 14px;
+    border: none;
+    overflow: hidden;
+}
+
+.tableContainer2 {
+    position: absolute;
+    top: 27.5rem;
+    left: 19.5rem;
+    border-radius: 30px;
+    background: #FFFFFF;
+    width: 16rem;
+    height: 16.8rem;
+    font-size: 14px;
+    border: none;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    left: 7.5rem;
+    top: 1.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3C3C3C;
+}
+
+.title2 {
+    position: absolute;
+    left: 24rem;
+    top: 25.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3C3C3C;
+}

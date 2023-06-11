@@ -1,0 +1,198 @@
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    background-color: #F5F5F5;
+    width: 1210px;
+    height: 870px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.button {
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    width: 160px;
+    height: 45px;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 14px;
+    background: #5E5F5F;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background: #808080;
+}
+
+.selected {
+    position: absolute;
+    left: 20%;
+    top: 8%;
+    width: 225px;
+    height: 45px;
+}
+
+.icon3 {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.excel{
+    position: absolute;
+    left: 84%;
+    top: 2%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3C3C3C !important;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-weight: 800;
+    width: 164px;
+    height: 37px;
+}
+
+.datePicker {
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.textDatePicker {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.classDatePicker {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: #eed9d9;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+
+    .container {
+        position: absolute;
+        top: 70px;
+        left: 17rem;
+        width: 1590px;
+        height: 850px;
+    }
+
+    .text {
+        left: 15%;
+        top: 3%;
+    }
+
+    .logo {
+        margin-left: 105rem;
+    }
+
+    .button {
+        left: 5%;
+        top: 8%;
+        width: 180px;
+        height: 45px;
+        font-family: "Roboto";
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .datePicker {
+        left: 5%;
+        top: 18%;
+    }
+
+    .textDatePicker {
+        font-size: 16px;
+    }
+
+    .classDatePicker {
+        border-radius: 3px;
+        border: 1px solid #000000;
+        background: #eed9d9;
+        width: 10rem;
+        height: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 790px;
+        top: 52px;
+        left: 16rem;
+    }  
+
+    .button {
+        left: 4.5%;
+        top: 6%;
+        width: 160px;
+        height: 37px;
+        font-size: 14px;
+    }
+    
+    .datePicker {
+        left: 5%;
+        top: 15%;
+    }
+    
+    .textDatePicker {
+        font-size: 15px;
+    }
+
+    .selected {
+        left: 22%;
+        top: 6%;
+        width: 228px;
+        height: 37px;
+    }
+}

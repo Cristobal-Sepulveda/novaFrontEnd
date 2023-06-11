@@ -1,0 +1,66 @@
+.columna {
+    position: absolute;
+    left: 3.8rem;
+    top: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 1rem;
+    background: transparent;
+    font-weight: bold;
+    font-family: 'Roboto';
+    vertical-align: middle;
+    color: #000000;
+}
+
+.tabla {
+    text-align: center;
+    font-size: 1rem;
+    overflow: hidden;
+    width: 20rem;
+    height: 13rem;
+    border: 1px solid #3C3C3C;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+@media screen and ( min-width: 1800px ) {
+    .columna {
+        left: 5rem;
+        top: 31rem;
+    }
+
+    .text {
+        font-weight: 800;
+        font-size: 1.1rem;
+    }
+
+    .tabla {
+        font-size: 1.1rem;
+        height: 13.5rem;
+    }
+    
+}
+
+@media screen and ( max-width: 1366px ) {
+    .columna {
+        left: 2.7rem;
+        top: 29rem;
+    }
+    
+    .text {
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .tabla {
+        font-size: 14px;
+        height: 12rem;
+        width: 16rem;
+    }
+}

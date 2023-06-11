@@ -1,0 +1,45 @@
+.iconContainer2 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    width: 7rem;
+    height: 3rem;
+    left: 34rem;
+}
+
+.botonsito {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 800;
+    color: #3C3C3C;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.botones {
+    margin-top: 1rem;
+    justify-content: end;
+    align-items: end;
+}
+
+@media screen and (min-width: 1800px) {
+    .iconContainer2 {
+        left: 57.5rem;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .iconContainer2 {
+        left: 25rem;
+    }
+}

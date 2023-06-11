@@ -1,0 +1,159 @@
+button {
+    padding: 0;
+    border: none;
+}
+
+.navBarContainer {
+    /* navBar a la izquierda en vertical */
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.15); 
+    width: 217px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.styleMonito { 
+    /* Monito */
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 54px;
+    top: 42px;
+}
+
+.completeName {
+    position: absolute;
+    left: 50.5px;
+    top: 194px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+.rolStyle {
+    position: absolute;
+    left: 58px;
+    top: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 14.5px;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    left: 2.5rem;
+    top: 39%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-gap: 2rem;
+}
+
+.guideStyle {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.guideStyle:hover {
+    font-style: bold;
+    font-weight: 700;
+}
+
+.guideStyleSelected {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    left: 2.8rem;
+    top: 91%;
+    width: 8rem;
+    height: 2rem;
+}
+
+.access {
+    color: #F0F0F0;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 1800px) {
+    .grid1 {
+        top: 33%;
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+    .styleMonito {
+        left: 54px;
+        top: 14px;
+    }
+
+    .completeName {
+        left: 57px;
+        top: 140px;
+        font-size: 20px;
+    }
+
+    .rolStyle {
+        left: 65px;
+        top: 180px;
+        font-size: 15px;
+    }
+
+    .grid1 {
+        top: 36%;
+        left: 2.9rem;
+    }
+
+    .guideStyle {
+        font-size: 16px;
+    }
+
+    .guideStyleSelected {
+        font-size: 16px;
+    }
+
+    
+
+}
+
+
+
+
+
+

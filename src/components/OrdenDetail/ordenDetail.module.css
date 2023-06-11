@@ -1,0 +1,44 @@
+.inputs{
+    width: 2.5rem !important;
+    height: 2rem !important;
+    margin-left: 2.5rem;
+}
+
+.inputs2 {
+    width: 3rem;
+}
+
+.flechita {
+    rotate: 270deg;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #9e9999;
+    padding: 0.5rem;
+    width: 1.81rem;
+    height: 1.9rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+.tdclas {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #9e9999;
+    padding: 0.5rem;
+}
+
+.tdclasDesactive {
+    border: 0.5px;
+    border-style: solid;
+    border-color: red;
+    padding: 0.5rem;
+    color: red;
+}
+
+.tabla {
+    font-family: 'Roboto';
+}

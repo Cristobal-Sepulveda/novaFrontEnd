@@ -1,0 +1,116 @@
+.iconContainer2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    margin-left: 52rem;
+    font-size: 24px;
+    width: 5rem;
+    height: 4rem;
+}
+
+.botonsito {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 800;
+    color: #3C3C3C;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.datePicker {
+    width: 30%;
+    height: 7%;
+    border: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    background: #FFFFFF;    
+
+}
+.inpusitos {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.inpusitos2{
+    margin-left: 1rem;
+    width: 134px;
+    height: 37px;
+    border: none
+}
+
+.containerForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.containerFecha {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+    justify-items: center;
+    margin-left: 16px;
+}
+
+.containerProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 0.5rem;
+    margin-left: -2rem;
+}
+
+.iconGas {
+    position:relative;
+    left: 19%;
+    top: 12%;
+    width: 86px;
+    height: 86px;    
+}
+
+.inpusitos3 {
+    width: 110px;
+    height: 37px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+
+.cantidadContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: left;
+    justify-items: left;
+    padding-left: 30px;
+    margin-top: 3rem;
+    font-family: 'Roboto';
+}
+
+@media screen and (min-width: 1800px) {
+    .iconContainer2 {
+        margin-left: 76rem;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .iconContainer2 {
+        
+        margin-left: 42.6rem;
+    }
+}

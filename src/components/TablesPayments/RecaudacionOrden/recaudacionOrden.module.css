@@ -1,0 +1,70 @@
+.container {
+    position: absolute;
+    left: 76%;
+    top: 51%;
+    background-color: #FFFFFF;
+    border: 1px solid #3C3C3C;
+    border-radius: 15px;
+    width: 200px;
+    padding-top: 1rem;
+}
+
+.texto2 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: #000000;
+    font-family: "Roboto", "Helvetica Neue";
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.input2 {
+    margin-bottom: 0.8rem;
+    width: 138px;
+    height: 28px;
+    border: 1px solid #3C3C3C;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background: #FFFFFF !important;
+    margin-left: 1rem;
+}
+
+.input2::placeholder { color: black; }
+
+@media screen and (min-width: 1800px) {
+    .container {
+        position: absolute;
+        left: 80.5%;
+        top: 52.5%;
+        width: 250px;
+    }
+
+    .texto2 {
+        font-size: 1.2rem;
+    }
+
+    .input2 {
+        width: 180px;
+        height: 30px;
+        padding: 0.7rem;
+    }
+}
+    
+@media screen and ( max-width: 1366px ) {
+    .container {
+        left: 76%;
+        top: 51%;
+        width: 200px;
+    }
+
+    .texto2 {
+        font-size: 14px;
+    }
+
+    .input2 {
+        width: 119px;
+        height: 30px;
+        padding: 0.5rem;
+        font-size: 14px
+    }
+}

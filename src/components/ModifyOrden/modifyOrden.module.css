@@ -1,0 +1,78 @@
+.boton{
+    position: absolute;
+    left: 55.5rem;
+    top: 3rem;
+    width: 140px;
+    height: 35px;
+    background-color: #F65108;
+    border: none;
+}
+
+.boton:hover{
+    background-color: #f86c31;
+}
+
+.cuadrado {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #9e9999;
+    padding: 0.5rem;
+}
+
+.flechita {
+    rotate: 270deg;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #9e9999;
+    padding: 0.5rem;
+    width: 1.81rem;
+    height: 1.9rem;
+}
+
+.inputs {
+    width: 2.8rem;
+}
+
+.selects {
+    width: 10rem;
+}
+
+.margin {
+    margin-left: 17rem;
+}
+
+.margin2 {
+    margin-left: 15.6rem;
+}
+
+@media screen and ( min-width: 1800px ) {
+    .boton{
+        left: 70rem;
+        top: 5.5rem;
+        width: 180px;
+        height: 40px;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .boton{
+        left: 50rem;
+        top: 3.3rem;
+        width: 125px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .inputs {
+        width: 2.8rem;
+        font-size: 14px;
+    }
+    
+    .selects {
+        width: 10rem;
+        font-size: 14px;
+    }
+
+    .tamaño {
+        font-size: 14px;
+    }
+}

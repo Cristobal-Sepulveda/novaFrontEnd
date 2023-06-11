@@ -1,0 +1,362 @@
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    background-color: #F5F5F5;
+    width: 1200px;
+    height: 730px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.inputs {
+    margin: 3rem 0 0 2.5rem;
+    width: 550px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.inputs2 {
+    position: absolute;
+    top: 0.5rem;
+    left: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 35px;
+    font-size: 14px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #818181;
+}
+
+.datePicker {
+    position: absolute;
+    left: 51.5%;
+    top: 2.3%;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.textDatePicker {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.classDatePicker {
+    border-radius: 3px;
+    border: none;
+    background: #FFFFFF;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    left: 66%;
+    top: 8.5%;
+    color: #3C3C3C;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.icon {
+    position: absolute;
+    left: 57%;
+    top: 7%;
+    width: 10rem;
+    height: 2rem;
+    color: #00FF0C;
+}
+
+.icon2 {
+    position: absolute;
+    left: 57%;
+    top: 6.3%;
+    width: 10rem;
+    height: 2.5rem;
+    color: #E12C3F;
+}
+
+.icon3 {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.excel{
+    position: absolute;
+    left: 84.5%;
+    top: 4.5%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3C3C3C !important;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-weight: 800;
+    width: 164px;
+    height: 37px;
+}
+
+.tableContainer {
+    width: 45rem;
+    height: 15rem;
+    font-size: 14px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin: 2rem 0 0 2.5rem;
+    text-align: center;
+    border: 1px solid #3C3C3C;
+    border-radius: 30px;
+}
+
+.tdStyle {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0.8rem 0 0 0 !important;
+}
+
+.tdclas {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #9e9999;
+    font-weight: 800;
+    width: 2rem;
+}
+
+.input2 {
+    width: 15rem;
+    height: 2rem;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #eed9d9;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background: #eed9d9 !important;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.texto3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: aliceblue;
+    font-family: "Roboto", "Helvetica Neue";
+}
+
+.containerTables {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 0 0 2.5rem;
+}
+
+@media screen and (min-width: 1800px) {
+    .container {
+        width: 1590px;
+        height: 860px;
+    }
+
+    .text {
+        left: 15%;
+        top: 3%;;
+    }
+
+    .logo {
+        margin-left: 105rem
+    }
+
+    .inputs {
+        margin-top:5rem;
+        width: 600px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 3.5rem;
+    }
+
+    .inputs2 {
+        top: 1.5rem;
+        left: 3.5rem;
+        width: 280px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .datePicker{
+        left: 42%;
+        top: 4.9%;
+        font-size: 15px;
+    }
+
+    .textDatePicker {
+        font-size: 15px;
+    }
+
+    .classDatePicker {
+        width: 15rem;
+        height: 2.6rem;
+    }
+
+    .icon {
+        left: 55%;
+        top: 9%;
+        height: 3rem;
+        color: #00FF0C;
+    }
+
+    .icon2 {
+        left: 55%;
+        top: 9%;
+        height: 3rem;
+        color: #E12C3F;
+    }
+
+    .info {
+        left: 62%;
+        top: 11%;
+        font-size: 18px;
+    }
+
+    .tableContainer {
+        width: 65rem;
+        height: 16.5rem;
+        font-size: 16px;
+        margin: 2rem 0 0 3.5rem;
+    }
+
+    .containerTables {
+        margin: 2rem 0 0 3.5rem;
+    }
+
+    .excel{
+        left: 82%;
+        top: 8%;
+        font-size: 16px;
+        width: 200px;
+        height: 40px;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 750px;
+        top: 52px;
+        left: 16rem;
+    }
+
+    .inputs {
+        margin-top:3rem;
+        width: 510px;
+        height: 35px;
+        font-size: 13px;
+        margin-left: 3rem;
+    }
+
+    .inputs2 {
+        top: 0.5rem;
+        left: 3rem;
+        width: 225px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .datePicker{
+        left: 55%;
+        top: 1.6%;
+        font-size: 14px;
+    }
+
+    .textDatePicker {
+        font-size: 13px;
+        margin-left: -0.5rem;
+    }
+
+    .classDatePicker {
+        width: 100px;
+        height: 35px;
+    }
+
+    .icon {
+        left: 59%;
+        top: 6.7%;
+        height: 2.3rem;
+        color: #00FF0C;
+    }
+
+    .icon2 {
+        left: 59%;
+        top: 6.7%;
+        height: 2.3rem;
+        color: #E12C3F;
+    }
+
+    .info {
+        left: 69%;
+        top: 8%;
+        font-size: 14px;
+    }
+
+    .tableContainer {
+        width: 37rem;
+        height: 15.5rem;
+        font-size: 14px;
+        margin: 1.5rem 0 0 3rem;
+    }
+
+    .containerTables {
+        margin: 1.5rem 0 0 2.8rem;
+    }
+
+    .excel{
+        left: 86%;
+        top: 4%;
+        font-size: 13px;
+        width: 164px;
+        height: 37px;
+    }
+}
+

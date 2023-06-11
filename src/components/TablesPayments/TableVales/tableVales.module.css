@@ -1,0 +1,26 @@
+.tabla {
+    width: 35rem;
+    height: 15rem;
+    border: 1px solid #3C3C3C;
+    border-radius: 30px;
+    background: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15.5px;
+}
+
+@media screen and (min-width: 1800px) {
+    .tabla {
+        width: 54rem;
+        height: 15.5rem;
+        font-size: 16px;
+    }
+}
+    
+@media screen and ( max-width: 1366px ) {
+    .tabla {
+        width: 30rem;
+        height: 16.8rem;
+        font-size: 14px;
+    }
+}

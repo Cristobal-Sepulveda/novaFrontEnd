@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    background-color: #F5F5F5;
+    width: 1210px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+}
+
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    left: 85%;
+    top: 2.5%;
+}
+
+.grafica {
+    position: relative;
+    width: 20rem !important;
+    height: 20rem !important;
+    margin: 0 auto;
+    margin-top: 2rem;
+}

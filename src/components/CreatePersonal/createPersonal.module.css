@@ -1,0 +1,46 @@
+.boton {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 3%;
+    top: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #5E5F5F;
+    width: 164px;
+    height: 37px;
+}
+
+.boton:hover
+{
+    color: #5E5F5F;
+    background-color: #FFFFFF;
+    border: 1px solid #5E5F5F;
+}
+
+.boton:hover img {
+    filter: invert(50%);
+}
+
+.bgModal {
+    background-color: #F5F5F5;
+    outline: none;
+}
+
+@media screen and ( max-width: 1366px ) {
+    .boton {
+        left: 3%;
+        top: 1rem;
+        font-size: 14px;
+        width: 135px;
+        height: 33px;
+    }
+}
+

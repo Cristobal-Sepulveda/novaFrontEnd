@@ -1,0 +1,31 @@
+.boton {
+    position: absolute;
+    left: 75%;
+    top: 94%;
+    width: 7rem;
+    height: 2.3rem;
+    background-color: #F65108;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: #f86c31;
+}
+
+@media screen and (min-width: 1800px) {
+    .boton {
+        left: 81%;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .boton {
+        left: 73%;
+    }
+}

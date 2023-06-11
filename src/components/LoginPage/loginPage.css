@@ -1,0 +1,156 @@
+
+.margin-image-1 {
+    position: absolute;
+    left: 13rem;
+    top: 10rem;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+    width: 28.6rem;
+}
+
+.input-container {
+    position: absolute;
+    left: 41.6rem;
+    top: 10rem;
+    width: 714px;
+    height: 458px;
+    background: #F5f5f5;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+.monito {
+    width: 79px;
+    height: 79px;
+    margin-top: 57px;
+    margin-left: 68px;
+}
+
+.texto-1 {
+    position: absolute;
+    left: 4.8rem;
+    top: 9.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    color: #3C3C3C;
+}
+
+.cajita-1 {
+    /*input con el nombre arriba y el espacio en blanco en una linea*/
+    position: absolute;
+    left: 4.8rem;
+    top: 13rem;
+    width: 30rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #E8E8E8;
+    outline: none;
+    font-weight: 500;
+}
+
+.cajita-1::placeholder {
+    color: #3C3C3C !important;
+}
+
+.cajita-2 {
+    /*input con el nombre arriba y el espacio en blanco en una linea*/
+    position: absolute;
+    left: 4.8rem;
+    top: 17rem;
+    width: 30rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #E8E8E8;
+    outline: none;
+    font-weight: 500;
+}
+
+.cajita-2::placeholder {
+    color: #3C3C3C !important;
+}
+
+.error-texto{
+    position: absolute;
+    left: 26rem;
+    top: 19.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF0000;
+}
+
+.boton-1 {
+    /* boton pequeño con borde naranja */
+    position: absolute;
+    left: 4.8rem;
+    top: 21rem;
+    width: 7rem;
+    height: 3rem;
+    background: #FFA500;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.boton-1:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #FFA500;
+}
+
+.texto-auxiliar {
+    position: absolute;
+    left: 4.8rem;
+    top: 25rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.texto-auxiliar:hover {
+    color: #FFA500;
+}
+
+
+@media screen and (min-width: 1800px) {
+    .margin-image-1 {
+        position: absolute;
+        left: 28rem;
+        top: 15rem;
+    }
+    
+    .input-container {
+        position: absolute;
+        left: 56.6rem;
+        top: 15rem;
+    }
+    
+}
+
+@media screen and (max-width: 1366px) {
+    .margin-image-1 {
+        position: absolute;
+        left: 6.4rem;
+        top: 6.6rem;
+    }
+    
+    .input-container {
+        position: absolute;
+        left: 35rem;
+        top: 6.6rem;
+    }
+    
+}
+

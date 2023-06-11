@@ -1,0 +1,107 @@
+.container {
+    position: absolute;
+    top: 7.1rem;
+    left: 65%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #3C3C3C;
+    border-radius: 30px;
+    width: 23.5rem;
+    height: 240px;
+}
+
+.textContainer {
+    font-family: "Roboto", "Helvetica Neue";
+    font-size: 14px;
+    font-weight: inherit;
+    color: #000000;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    line-height: 15px;
+}
+
+.texto {
+    font-weight: bolder;
+}
+
+.personalContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "uno dos" "tres cuatro";
+    margin-left: -1rem;
+    margin-top: -2rem;
+    padding: 30px;
+}
+
+.monito {
+    width: 3rem;
+    height: 3rem;
+}
+
+.texto3 {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Roboto", "Helvetica Neue";
+    font-weight: inherit;
+    margin-top: 0.5rem;
+    margin-right: 4rem;
+}
+
+@media screen and (min-width: 1800px) {
+    .container {
+        top: 17.5%;
+        left: 70.5%;
+        width: 25.5rem;
+        height: 265px;
+    }
+
+    .textContainer {
+        font-size: 1.1rem;
+    }
+
+    .monito {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+    .texto3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+    .container {
+        top:6.7rem;
+        left: 63%;
+        width: 20.8rem;
+        height: 15.5rem;
+    }
+
+    .textContainer {
+        font-size: 14px;
+    }
+
+    .monito {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .texto3 {
+        font-size: 14px;
+    }
+
+    .monito {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .personalContainer {
+        margin-left: -1rem;
+        margin-top: -2rem;
+        padding: 25px;
+    }
+}
+    

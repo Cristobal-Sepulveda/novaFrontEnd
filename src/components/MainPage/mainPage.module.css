@@ -1,0 +1,202 @@
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.excel{
+    position: absolute;
+    left: 83%;
+    top: 2%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3C3C3C !important;
+    font-family: "Roboto";
+    font-weight: 800;
+    background-color: transparent;
+    width: 164px;
+    height: 37px;
+}
+
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    width: 1200px;
+    height: 660px;
+    background: #F5F5F5;
+    overflow: hidden;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    padding: 5rem 2.5rem 0 2.5rem;
+}
+
+.icon3 {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.tableContainer {
+    /*centrada en el centro de la pantalla*/
+    border-radius: 30px;
+    overflow-y: scroll;
+    background: #FFFFFF;
+    height: 33rem;
+    font-size: 14px;
+}
+
+.boton {
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #5E5F5F;
+    width: 100px;
+    height: 32px;
+}
+
+.boton:hover
+{
+    color: #5E5F5F;
+    background-color: #FFFFFF;
+    border: 1px solid #5E5F5F;
+}
+
+@media screen and ( min-width: 1800px ) {
+
+    .container {
+        width: 1590px;
+        height: 870px;
+    }
+
+    .tableContainer {
+        height: 44rem;
+    }
+
+    .text {
+        left: 15%;
+        top: 3%;
+    }
+
+    .logo {
+        margin-left: 105rem;
+    }
+
+    .boton {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and ( max-width: 1366px ) {
+
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 618px;
+        top: 52px;
+        left: 16rem;
+    }
+
+    .tableContainer {
+        height: 30.5rem;
+    }
+
+    .tabla {
+        font-size: 12px;
+    }
+
+    .excel{
+        width: 135px;
+        height: 33px;
+        font-size: 14px;
+        top: 1.3rem;
+        left: 82%;
+    }
+
+    .boton {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+/* responsive de telefono */
+
+@media screen and ( max-width: 768px ) {
+
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 80rem;
+        top: 52px;
+        left: 16rem;
+    }
+
+    .tableContainer {
+        height: 30.5rem;
+    }
+
+    .tabla {
+        font-size: 12px;
+    }
+
+    .excel{
+        width: 135px;
+        height: 33px;
+        font-size: 14px;
+        top: 1.3rem;
+        left: 82%;
+    }
+
+    .boton {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

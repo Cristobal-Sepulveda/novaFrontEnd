@@ -1,0 +1,204 @@
+.icon {
+    margin-left: 82rem;
+    margin-top: 1rem;
+}
+
+.text {
+    position: absolute;
+    left: 20%;
+    top: 4.5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.icon3 {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.tableContainer {
+    border-radius: 30px;
+    height: 31rem;
+    overflow-y: scroll;
+    /* background del color de la tabla */
+    background: #FFFFFF;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 14px;
+}
+
+.datePicker {
+    position: absolute;
+    left: 6%;
+    top: 3%;
+    font-family: "Roboto";
+}
+
+.classDatePicker {
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    width: 7rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 13px;
+}
+
+.excel{
+    position: absolute;
+    left: 84.5%;
+    top: 4.5%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #3C3C3C !important;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-weight: 800;
+    width: 164px;
+    height: 37px;
+}
+
+.container {
+    position: absolute;
+    top: 70px;
+    left: 17rem;
+    width: 1200px;
+    height: 660px;
+    background: #F5F5F5;
+    overflow: hidden;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    padding: 1rem 2.5rem 0 2.5rem;
+}
+
+.inline {
+    display: inline !important;
+    position: relative;
+}
+
+.boton {
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #5E5F5F;
+    width: 100px;
+    height: 32px;
+}
+
+.boton:hover
+{
+    color: #5E5F5F;
+    background-color: #FFFFFF;
+    border: 1px solid #5E5F5F;
+}
+
+.infoOrdenes {
+    width: 10rem;
+    position: absolute;
+    left: 9rem;
+    top: 0rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 23px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputOrdenes {
+    width: 7rem;
+    height: 1.5rem;
+    margin-top: -0.2rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+    .container {
+        width: 1590px;
+        height: 870px;
+        
+    }
+
+    .tableContainer {
+        height: 45rem;
+    }
+
+    .icon {
+        margin-left: 105rem;
+    }
+
+    .text {
+        left: 15%;
+        top: 3%;
+    }
+
+    .excel {
+        top: 3.4%;
+        left: 89%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .text {
+        font-size: 16px;
+        left: 22%;
+        top: 2.5%;
+    }
+
+    .icon {
+        margin-top: 0.3rem;
+        margin-left: 72rem;
+    }
+
+    .container {
+        width: 1040px;
+        height: 623px;
+        top: 52px;
+        left: 16rem;
+    }
+
+    .tableContainer {
+        height: 30rem;
+    }
+
+    .tabla {
+        font-size: 12px;
+    }
+
+    .excel {
+        top: 4.8%;
+        left: 83.2%;
+    }
+
+    .boton {
+        width: 80px;
+        height: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        font-size: 12px;
+    }
+}
